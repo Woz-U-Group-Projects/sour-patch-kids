@@ -5,4 +5,6 @@
     {{ task.id }} : {{ task.name }} :
     {{ task.complete ? "complete" : "not complete" }}
   </li>
+  <app-task-display [dataPath]="staticPath"></app-task-display>
 </ul>
+
